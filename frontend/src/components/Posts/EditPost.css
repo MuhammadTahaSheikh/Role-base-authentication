@@ -1,0 +1,63 @@
+/* EditPost.css */
+.edit-post-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-post-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Darker color for labels */
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border 0.3s ease;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    border-color: #3498db; /* Highlight border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .form-textarea {
+    height: 150px; /* Set a specific height for the textarea */
+    resize: vertical; /* Allow vertical resizing only */
+  }
+  
+  .submit-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db; /* Primary color for submit button */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
